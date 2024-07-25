@@ -4,6 +4,12 @@ export const Colors = {
   python: '#4B8BBE',
   typescript: '#234A84',
   javascript: '#F7DF1E',
+  html: '#234A84',
+  css: '#234A84',
+  bootstrap: '#FF9900',
+  materialUI: '#00ADD8',
+  tailwind: '#F7DF1E',
+  figma: '#4B8BBE',
 
   // Frontend
   web: '#2D2D2D',
@@ -32,15 +38,8 @@ export const Colors = {
   redis: '#D82C20',
 
   // Cloud
-  aws: '#FF9900',
-  gcp: '#4285F4',
-  docker: '#0DB7Ed',
-  kubernetes: '#326CE5',
-  terraform: '#7B42BC',
 
   // Messaging
-  nats: '#199bfc',
-  kafka: '#000000',
 
   // Social
   linkedin: '#0077B5',
