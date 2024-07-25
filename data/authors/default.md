@@ -1,22 +1,22 @@
 ---
-name: Karan Pratap Singh
-shortname: Karan
-avatar: /static/avatar.jpg
-occupation: Cloud Engineer
-company: Apple
-resume: /static/karan_resume.pdf
-email: contact@karanpratapsingh.com
-twitter: https://twitter.com/karan_6864
-linkedin: https://www.linkedin.com/in/karan99
-github: https://github.com/karanpratapsingh
+name: Wubeshet Abera
+shortname: Wubeshet
+avatar: /static/WubuImage.png
+occupation: Software Engineer
+company: HST
+resume: /static/my_cv.pdf
+email: wubeabera123@gmail.com
+# twitter: https://twitter.com/karan_6864
+linkedin: https://www.linkedin.com/in/wubeshet-abera-8ab52b26a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BhebAyRWxRIetA6pIdcQNaw%3D%3D
+github: https://github.com/wubeabera123
 ---
 
 A software engineer who aims to evolve, innovate, and inspire through technology.
 
-Currently, I am working as a **Cloud Engineer** at **Apple**.
+Currently, I am working as a **Software Developer** at **HST Consulting PLC**.
 
-Previously, I was a Senior Software Engineer at [Guardian Life](https://www.guardianlife.com), and a Senior Engineer at [Curebase](https://www.curebase.com) where I contributed to the creation of a decentralized clinical trial platform and scaling infrastructure with an emphasis on security, HIPAA compliance, and GDPR compliance.
+I have previously built the HST Consulting PLC website as part of a team, utilizing technologies such as Next.js and Tailwind CSS. My technical skills include Next.js, React, HTML, CSS, Bootstrap, Material-UI, Tailwind CSS, and Figma for design.
 
-Prior to that, I worked with the Digitization Program Office (DPO) at the [Smithsonian Institution](https://www.si.edu) as a consulting Software Developer in collaboration with the Office of the Chief Information Officer (OCIO).
+I am passionate about prompt engineering, data science, and artificial intelligence, and I am continuously seeking opportunities to expand my knowledge and expertise in these areas.
 
-Outside of work, I've written more than 50 technical articles that have received over 1 million views. I've self-published two books, worked on US patents, and made contributions to open-source projects like Meta's [React Native (v0.60)](https://reactnative.dev/blog/2019/06/12/react-native-open-source-update).
+Outside of work, I am actively applying for jobs on Upwork and have attended training sessions from the International Trade Center and Orange Digital Center to enhance my skills in marketable software development and modern software development tools.

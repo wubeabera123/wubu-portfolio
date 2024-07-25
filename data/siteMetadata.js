@@ -1,22 +1,22 @@
 const siteMetadata = {
-  title: 'Karan Pratap Singh',
-  author: 'Karan Pratap Singh',
-  headerTitle: 'Karan Pratap Singh',
+  title: 'Wubeshet Abera',
+  author: 'Wubeshet Abera',
+  headerTitle: 'Wubeshet Abera',
   description:
     'A software engineer who aims to evolve, innovate, and inspire through technology.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://karanpratapsingh.com',
-  siteRepo: 'https://github.com/karanpratapsingh/portfolio',
   siteLogo: '/static/images/logo.png',
-  image: '/static/avatar.jpg',
+  image: '/WubuImage.png',
   socialBanner: '/static/banner.png',
-  email: 'contact@karanpratapsingh.com',
-  github: 'https://github.com/karanpratapsingh',
-  twitter: 'https://twitter.com/karan_6864',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  email: 'wubeabera123@gamil.com',
+  github: 'https://github.com/wubeabera123',
+  twitter: 'https://x.com/wubethelearner',
+  // facebook: 'https://facebook.com',
+  // youtube: 'https://youtube.com',
+  instagram: 'https://www.instagram.com/wubu4950/?theme=dark',
+  linkedin:
+    'https://www.linkedin.com/in/wubeshet-abera-8ab52b26a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BKd6yueWQ%2B6Fp3llPuqpZA%3D%3D',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
