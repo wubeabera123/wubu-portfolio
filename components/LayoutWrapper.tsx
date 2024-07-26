@@ -5,16 +5,25 @@ import Link from './Link';
 import MobileNav from './MobileNav';
 import SectionContainer from './SectionContainer';
 import ThemeSwitch from './ThemeSwitch';
+import { RoughNotation } from 'react-rough-notation';
+import { useRandomColorPair } from '@/lib/hooks/useRandomColorPair';
 
 interface Props {
   children: ReactNode;
 }
 
 const LayoutWrapper = ({ children }: Props) => {
+  const [resumeColor] = useRandomColorPair();
+
   return (
     <SectionContainer>
       <div className='flex h-screen flex-col justify-between'>
-        <header className='flex items-center justify-end py-8'>
+        <header className='flex items-center justify-between py-8'>
+          <h1 className='text-2xl font-bold text-[#7df0ac]'>
+            {' '}
+            <span>&lt;Wubu /&gt;</span>
+          </h1>{' '}
+          {/* Use the Test component */}
           <div className='flex items-center text-base leading-5'>
             <div className='hidden sm:block'>
               {headerNavLinks.map(link => (
@@ -30,6 +39,23 @@ const LayoutWrapper = ({ children }: Props) => {
             <ThemeSwitch />
             <MobileNav />
           </div>
+          <a
+            className='!font-normal !text-black !no-underline dark:!text-white'
+            // href={resume}
+            target='_blank'
+            rel='noreferrer'
+          >
+            <RoughNotation
+              show
+              type='box'
+              animationDelay={250}
+              animationDuration={2000}
+              strokeWidth={2}
+              color={resumeColor}
+            >
+              Resume
+            </RoughNotation>
+          </a>
         </header>
         <main className='mb-auto'>{children}</main>
         <Footer />
