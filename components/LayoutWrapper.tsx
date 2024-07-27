@@ -40,7 +40,7 @@ const LayoutWrapper = ({ children }: Props) => {
             <MobileNav />
           </div>
           <a
-            className='!font-normal !text-black !no-underline dark:!text-white'
+            className='hidden !font-normal !text-black !no-underline dark:!text-white sm:block'
             // href={resume}
             target='_blank'
             rel='noreferrer'
