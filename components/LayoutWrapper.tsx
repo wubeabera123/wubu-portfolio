@@ -41,7 +41,7 @@ const LayoutWrapper = ({ children }: Props) => {
           </div>
           <a
             className='hidden !font-normal !text-black !no-underline dark:!text-white sm:block'
-            // href={resume}
+            href={'/static/my_cv.pdf'}
             target='_blank'
             rel='noreferrer'
           >
