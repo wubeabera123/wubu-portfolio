@@ -7,7 +7,7 @@ function Card({ title, description, banner, href }): React.ReactElement {
       alt={title}
       src={banner}
       className='object-cover object-center md:h-36 lg:h-48'
-      width={544}
+      width={600}
       height={306}
     />
   );
