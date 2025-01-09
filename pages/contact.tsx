@@ -154,7 +154,9 @@ const Contact: React.FC = () => {
                   name='firstName'
                   onChange={e => setFirstName(e.target.value)}
                   placeholder='First Name'
-                  className='custom-outline mt-1 h-[50px] w-full rounded border-[1px] p-2'
+                  className='custom-outline mt-1 h-[50px] w-full rounded border-[1px] border-gray-300 
+                    bg-white p-2 dark:border-gray-600 
+                    dark:bg-gray-800 dark:text-gray-100'
                 />
                 {errors.firstName && (
                   <p className='p2 rounded-lg px-2 text-sm text-red-800 dark:text-red-400'>
@@ -165,7 +167,9 @@ const Contact: React.FC = () => {
               <div className='mt-5'>
                 <input
                   value={lastName}
-                  className='custom-outline mt-1 h-[50px] w-full rounded border-[1px] p-2'
+                  className='custom-outline mt-1 h-[50px] w-full rounded border-[1px] border-gray-300 
+                    bg-white p-2 dark:border-gray-600 
+                    dark:bg-gray-800 dark:text-gray-100'
                   type='text'
                   name='lastName'
                   onChange={e => setLastName(e.target.value)}
@@ -184,7 +188,9 @@ const Contact: React.FC = () => {
                   placeholder='Email Address'
                   name='email'
                   onChange={e => setEmail(e.target.value)}
-                  className='custom-outline mt-1 h-[50px] w-full rounded border-[1px] p-2'
+                  className='custom-outline mt-1 h-[50px] w-full rounded border-[1px] border-gray-300 
+                    bg-white p-2 dark:border-gray-600 
+                    dark:bg-gray-800 dark:text-gray-100'
                 />
                 {errors.email && (
                   <p className='p2 rounded-lg px-2 text-sm text-red-800 dark:text-red-400'>
@@ -195,7 +201,9 @@ const Contact: React.FC = () => {
               <div className='mt-5'>
                 <textarea
                   value={message}
-                  className='custom-outline mt-1 w-full rounded border-[1px] p-2 pb-20'
+                  className='custom-outline mt-1 w-full rounded border-[1px] border-gray-300 bg-white 
+                    p-2 pb-20 dark:border-gray-600 
+                    dark:bg-gray-800 dark:text-gray-100'
                   name='message'
                   placeholder='Message'
                   onChange={e => setMessage(e.target.value)}
