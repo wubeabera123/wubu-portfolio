@@ -19,10 +19,12 @@ const LayoutWrapper = ({ children }: Props) => {
     <SectionContainer>
       <div className='flex h-screen flex-col justify-between'>
         <header className='flex items-center justify-between py-8'>
-          <h1 className='text-2xl font-bold text-[#7df0ac]'>
-            {' '}
-            <span>&lt;Wubu /&gt;</span>
-          </h1>{' '}
+          <Link href='/'>
+            <h1 className='text-2xl font-bold text-[#7df0ac]'>
+              {' '}
+              <span>&lt;waDigitalSolution /&gt;</span>
+            </h1>{' '}
+          </Link>
           {/* Use the Test component */}
           <div className='flex items-center text-base leading-5'>
             <div className='hidden sm:block'>
@@ -53,7 +55,7 @@ const LayoutWrapper = ({ children }: Props) => {
               strokeWidth={2}
               color={resumeColor}
             >
-              Resume
+              Download Resume
             </RoughNotation>
           </a>
         </header>

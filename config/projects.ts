@@ -62,7 +62,7 @@ export const projects: Project[] = [
     title: 'HST Office Automation',
     slug: 'HST OA',
     banner: '/static/projects/ScreenshotOA1.png',
-    website: 'https://www.hst-et.com/',
+    website: 'https://myoffice.hst-et.com/',
     description:
       'Welcome to the HST Office Automation System, designed to streamline your business operations and enhance efficiency. Our system offers a range of services, including room booking to manage meeting spaces effortlessly, a help desk for timely support and issue resolution, and asset management to track and maintain your valuable resources. Discover how the HST Office Automation System can optimize your office processes and improve productivity.',
     shortDescription:
@@ -85,6 +85,35 @@ export const projects: Project[] = [
     ],
     deployment: {
       web: 'https://myoffice.hst-et.com/',
+    },
+    subProjects: [],
+  },
+  {
+    title: 'To do',
+    slug: 'Task Management',
+    banner: '/static/projects/todo/main .png',
+    website:
+      'https://task-management-wubeabera123gmailcoms-projects.vercel.app/',
+    description:
+      'Welcome to the HST Office Automation System, designed to streamline your business operations and enhance efficiency. Our system offers a range of services, including room booking to manage meeting spaces effortlessly, a help desk for timely support and issue resolution, and asset management to track and maintain your valuable resources. Discover how the HST Office Automation System can optimize your office processes and improve productivity.',
+    shortDescription:
+      'Welcome to the HST Office Automation System, designed to streamline your business operations',
+    repository: '#',
+    stack: [
+      Stack.nextjs,
+      Stack.react,
+      Stack.materialUI,
+      Stack.python,
+      Stack.django,
+    ],
+    dimensions: [320, 640],
+    screenshots: [
+      '/static/projects/todo/2.png',
+      '/static/projects/todo/3.png',
+      '/static/projects/todo/4.png',
+    ],
+    deployment: {
+      web: 'https://task-management-wubeabera123gmailcoms-projects.vercel.app/',
     },
     subProjects: [],
   },
