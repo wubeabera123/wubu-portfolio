@@ -7,6 +7,7 @@ import SectionContainer from './SectionContainer';
 import ThemeSwitch from './ThemeSwitch';
 import { RoughNotation } from 'react-rough-notation';
 import { useRandomColorPair } from '@/lib/hooks/useRandomColorPair';
+import Image from 'next/image';
 
 interface Props {
   children: ReactNode;
@@ -20,10 +21,17 @@ const LayoutWrapper = ({ children }: Props) => {
       <div className='flex h-screen flex-col justify-between'>
         <header className='flex items-center justify-between py-8'>
           <Link href='/'>
-            <h1 className='text-2xl font-bold text-[#7df0ac]'>
+            {/* <h1 className='text-2xl font-bold text-[#7df0ac]'>
               {' '}
-              <span>&lt;waDigitalSolution /&gt;</span>
-            </h1>{' '}
+              <span>&lt;waDSolution /&gt;</span>
+            </h1>{' '} */}
+            <Image
+              alt={'logo'}
+              src={'/static/mylogo.png'}
+              className='w-1 object-cover object-center md:h-36 lg:h-48'
+              width={68}
+              height={50}
+            />
           </Link>
           {/* Use the Test component */}
           <div className='flex items-center text-base leading-5'>
