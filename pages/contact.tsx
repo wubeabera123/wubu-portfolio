@@ -21,7 +21,15 @@ async function SendContactInfo(data: any) {
       body: JSON.stringify(data),
     });
 
-    return response;
+    const responseData = await response.json();
+
+    // Log for debugging
+    console.log('API Response:', responseData);
+
+    return {
+      ok: response.ok,
+      data: responseData,
+    };
   } catch (error) {
     console.error('Error sending contact info:', error);
     throw error;
@@ -89,44 +97,52 @@ const Contact: React.FC = () => {
           toast.success('Message sent successfully!', {
             duration: 5000,
             style: {
-              background: '#2D3748',
+              background: '#10B981',
               color: '#fff',
             },
           });
 
-          console.log('Form submitted successfully');
+          console.log('Form submitted successfully:', response.data);
         } else {
-          const errorData = await response.json();
+          // Better error handling
+          const errorMessage =
+            response.data?.message || 'Failed to send message';
+          const errorDetails = response.data?.details
+            ? `: ${response.data.details}`
+            : '';
+
           toast.dismiss(loadingToast);
-          toast.error(errorData.message || 'Failed to send message', {
-            duration: 5000,
+          toast.error(`${errorMessage}${errorDetails}`, {
+            duration: 7000,
             style: {
-              background: '#2D3748',
+              background: '#EF4444',
               color: '#fff',
             },
           });
-          console.error('Form submission failed');
+          console.error('Form submission failed:', response.data);
         }
       } catch (error) {
         toast.dismiss(loadingToast);
-        toast.error('Error submitting form. Please try again.', {
-          duration: 5000,
-          style: {
-            background: '#2D3748',
-            color: '#fff',
+        toast.error(
+          'Network error. Please check your connection and try again.',
+          {
+            duration: 5000,
+            style: {
+              background: '#EF4444',
+              color: '#fff',
+            },
           },
-        });
+        );
         console.error('Error submitting form:', error);
       }
     } else {
       toast.error('Please fill in all required fields correctly.', {
         duration: 5000,
         style: {
-          background: '#2D3748',
+          background: '#F59E0B',
           color: '#fff',
         },
       });
-      console.log('Form validation failed', res.errors);
     }
   };
 
