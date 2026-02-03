@@ -39,7 +39,7 @@ export default async function handler(
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: 'Contact Form <onboarding@resend.dev>', // Use Resend's test domain
+      from: 'Wubeshet Abera | Portfolio Contact <onboarding@resend.dev>',
       to: [process.env.YOUR_EMAIL || 'wubeabera123@gmail.com'],
       replyTo: email,
       subject: `New Contact Form Submission from ${firstName} ${lastName}`,

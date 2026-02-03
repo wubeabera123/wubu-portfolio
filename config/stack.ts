@@ -17,21 +17,29 @@ export enum Stack {
   // Backend
   node,
   django,
+  prisma,
+  postgres,
+  ReduxToolkit,
+  ReduxSaga,
 }
 
 export const WorkStack = [
   Stack.nextjs,
-  Stack.typescript,
-  Stack.python,
   Stack.react,
+  Stack.typescript,
   Stack.javascript,
   Stack.html,
   Stack.css,
   Stack.bootstrap,
   Stack.materialUI,
   Stack.tailwind,
-  Stack.figma,
+  Stack.python,
   Stack.node,
+  Stack.ReduxToolkit,
+  Stack.ReduxSaga,
+  Stack.postgres,
+  Stack.prisma,
+  Stack.figma,
   // Stack.django,
 ];
 
@@ -81,6 +89,23 @@ export const StackInfo: Record<Stack, StackInfoMap> = {
     value: 'Node',
     color: Colors.node,
   },
+  [Stack.prisma]: {
+    value: 'Prisma',
+    color: Colors.prisma,
+  },
+  [Stack.postgres]: {
+    value: 'Postgres',
+    color: Colors.postgres,
+  },
+  [Stack.ReduxToolkit]: {
+    value: 'Redux Toolkit',
+    color: Colors.redux,
+  },
+  [Stack.ReduxSaga]: {
+    value: 'Redux Saga',
+    color: Colors.redux,
+  },
+
   [Stack.django]: {
     value: 'Django',
     color: Colors.django,

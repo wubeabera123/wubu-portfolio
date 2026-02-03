@@ -3,13 +3,17 @@ export const Colors = {
   go: '#00ADD8',
   python: '#4B8BBE',
   typescript: '#234A84',
-  javascript: '#F7DF1E',
+  javascript: '#F78F1e',
   html: '#234A84',
   css: '#234A84',
   bootstrap: '#FF9900',
   materialUI: '#00ADD8',
-  tailwind: '#F7DF1E',
+  tailwind: '#F78F1e',
   figma: '#4B8BBE',
+  prisma: '#0C344B',
+  postgres: '#336791',
+  ReduxToolkit: '#764ABC',
+  ReduxSaga: '#764ABC',
 
   // Frontend
   web: '#2D2D2D',
@@ -33,7 +37,7 @@ export const Colors = {
 
   // Databases
   arangodb: '#68A063',
-  postgres: '#336791',
+  // postgres: '#336791',
   mongo: '#4DB33D',
   redis: '#D82C20',
 
