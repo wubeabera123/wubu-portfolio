@@ -33,6 +33,76 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: 'Car Spare Parts Sell System',
+    slug: 'CAR',
+    banner: '/static/projects/car-spare.png',
+    website: 'https://car-spare-part.vercel.app',
+    description:
+      'Car Spare Parts Sell System is a web application designed to facilitate the buying and selling of car spare parts. The platform provides a user-friendly interface for both buyers and sellers, allowing them to easily list, search, and purchase spare parts for various car models. With features such as secure payment processing, real-time inventory management, and customer support, the Car Spare Parts Sell System aims to streamline the process of acquiring essential components for vehicle maintenance and repair.',
+    shortDescription:
+      'Car Spare Parts Sell System is a web application designed to facilitate the buying and selling of car spare parts.',
+    repository: '#',
+    stack: [
+      Stack.nextjs,
+      Stack.react,
+      Stack.tailwind,
+      Stack.prisma,
+      Stack.postgres,
+      Stack.node,
+    ],
+    dimensions: [320, 640],
+    screenshots: [
+      '/static/projects/car-spare.png',
+      '/static/projects/car-spare2.png',
+      '/static/projects/car-spare3.png',
+      '/static/projects/car-spare4.png',
+      '/static/projects/car-spare5.png',
+      '/static/projects/car-spare6.png',
+      '/static/projects/car-spare7.png',
+      '/static/projects/car-spare8.png',
+      '/static/projects/car-spare9.png',
+      '/static/projects/car-spare10.png',
+    ],
+    deployment: {
+      web: 'https://car-spare-part.vercel.app',
+    },
+    subProjects: [],
+  },
+  {
+    title: 'AI Powered Task Management System',
+    slug: 'TASK',
+    banner: '/static/projects/task1.jpg',
+    website: 'https://vimeo.com/1195268100/3c70cbacd9?fl=pl&fe=sh',
+    description:
+      'Built TaskFlow AI, a full-stack productivity app using FastAPI, Next.js, and TypeScript. It features secure JWT auth, task CRUD, and AI tools to generate tasks, break work into subtasks, prioritize backlog items, and create deadline-based schedules. I delivered end-to-end API integration, typed frontend architecture, responsive UI/UX redesign, profile-based navigation, and usability upgrades like delete confirmation, stable pagination, newest-first ordering, and scrollable task workspace sections.',
+    shortDescription:
+      'Built TaskFlow AI, a full-stack productivity app using FastAPI, Next.js, and TypeScript.',
+    repository: '#',
+    stack: [
+      Stack.nextjs,
+      Stack.react,
+      Stack.tailwind,
+      Stack.python,
+      Stack.fastAPI,
+      Stack.prisma,
+      Stack.postgres,
+      Stack.node,
+      Stack.Olama,
+      Stack.Gemma,
+    ],
+    dimensions: [320, 640],
+    screenshots: [
+      '/static/projects/task1.jpg',
+      '/static/projects/task2.jpg',
+      '/static/projects/task3.jpg',
+      '/static/projects/task4.jpg',
+    ],
+    deployment: {
+      web: 'https://vimeo.com/1195268100/3c70cbacd9?fl=pl&fe=sh',
+    },
+    subProjects: [],
+  },
+  {
     title: 'HST Website',
     slug: 'HST',
     banner: '/static/projects/ScreenshotWeb.png',

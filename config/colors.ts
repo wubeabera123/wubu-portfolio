@@ -14,6 +14,9 @@ export const Colors = {
   postgres: '#336791',
   ReduxToolkit: '#764ABC',
   ReduxSaga: '#764ABC',
+  fastAPI: '#009688',
+  Olama: '#000000',
+  Gemma: '#000000',
 
   // Frontend
   web: '#2D2D2D',

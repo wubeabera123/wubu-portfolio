@@ -2,7 +2,7 @@
 name: Wubeshet Abera
 shortname: Wubeshet
 avatar: /static/WubuImage.png
-occupation: Senior Frontend Developer | UI/IX Designer
+occupation: Senior Frontend Developer | UI/IX Designer | Fullstack(Next js)
 # company: HST
 resume: /static/Updated_CV.pdf
 email: wubeabera123@gmail.com
@@ -11,6 +11,4 @@ linkedin: https://www.linkedin.com/in/wubeshet-abera-8ab52b26a?lipi=urn%3Ali%3Ap
 github: https://github.com/wubeabera123
 ---
 
-I am a Software Developer dedicated to evolving, innovating, and bringing ideas to life through technology and thoughtful UI/UX design.
-I build modern, scalable, and AI‑enabled software solutions using technologies such as Next.js, React, Tailwind CSS, Material‑UI, Bootstrap, HTML/CSS, and Figma for UI/UX design. I also develop robust full‑stack applications with Next.js and Prisma ORM, and architect sophisticated state‑management systems using Redux Toolkit (RTK) and RTK‑Saga to ensure efficiency, reliability, and maintainable codebases.
-My work focuses on creating seamless user experiences, transforming concepts into real‑world digital products, and leveraging AI to deliver smarter, more impactful solutions.
+I am a Software Developer specialized in Frontend Development, dedicated to evolving, innovating, and bringing ideas to life through technology and thoughtful UI/UX design. I build modern, scalable, and AI-enabled software solutions using technologies such as Next.js, React, Tailwind CSS, Material-UI, Bootstrap, HTML/CSS, and Figma for UI/UX design. I also develop robust full-stack applications with Next.js and Prisma ORM, and architect sophisticated state-management systems using Redux Toolkit (RTK) and RTK-Saga to ensure efficiency, reliability, and maintainable codebases. My work focuses on creating seamless user experiences, transforming concepts into real-world digital products, and leveraging AI to deliver smarter, more impactful solutions.

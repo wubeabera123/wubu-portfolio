@@ -13,6 +13,9 @@ export enum Stack {
   figma,
   // Frontend
   react,
+  fastAPI,
+  Olama,
+  Gemma,
   nextjs,
   // Backend
   node,
@@ -40,6 +43,9 @@ export const WorkStack = [
   Stack.postgres,
   Stack.prisma,
   Stack.figma,
+  Stack.fastAPI,
+  Stack.Olama,
+  Stack.Gemma,
   // Stack.django,
 ];
 
@@ -117,5 +123,17 @@ export const StackInfo: Record<Stack, StackInfoMap> = {
   [Stack.figma]: {
     value: 'Figma',
     color: Colors.figma,
+  },
+  [Stack.fastAPI]: {
+    value: 'FastAPI',
+    color: Colors.fastAPI,
+  },
+  [Stack.Olama]: {
+    value: 'Olama',
+    color: Colors.Olama,
+  },
+  [Stack.Gemma]: {
+    value: 'Gemma',
+    color: Colors.Gemma,
   },
 };
