@@ -3,20 +3,19 @@ const siteMetadata = {
   author: 'Wubeshet Abera',
   headerTitle: 'Wubeshet Abera',
   description:
-    'A software engineer who aims to evolve, innovate, and inspire through technology.',
+    'Senior Frontend Engineer, Full-Stack Developer, and AI Engineer building scalable web products and AI-powered solutions.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteLogo: '/static/images/logo.png',
   image: '/WubuImage.png',
   socialBanner: '/static/banner.png',
-  email: 'wubeabera123@gamil.com',
+  email: 'wubeabera123@gmail.com',
   github: 'https://github.com/wubeabera123',
   twitter: 'https://x.com/wubethelearner',
   // facebook: 'https://facebook.com',
   // youtube: 'https://youtube.com',
   instagram: 'https://www.instagram.com/wubu4950/?theme=dark',
-  linkedin:
-    'https://www.linkedin.com/in/wubeshet-abera-8ab52b26a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BKd6yueWQ%2B6Fp3llPuqpZA%3D%3D',
+  linkedin: 'https://www.linkedin.com/in/wubeshet-abera-8ab52b26a',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

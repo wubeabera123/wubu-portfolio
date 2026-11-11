@@ -14,7 +14,7 @@ export enum Stack {
   // Frontend
   react,
   fastAPI,
-  Olama,
+  Ollama,
   Gemma,
   nextjs,
   // Backend
@@ -44,7 +44,7 @@ export const WorkStack = [
   Stack.prisma,
   Stack.figma,
   Stack.fastAPI,
-  Stack.Olama,
+  Stack.Ollama,
   Stack.Gemma,
   // Stack.django,
 ];
@@ -128,9 +128,9 @@ export const StackInfo: Record<Stack, StackInfoMap> = {
     value: 'FastAPI',
     color: Colors.fastAPI,
   },
-  [Stack.Olama]: {
-    value: 'Olama',
-    color: Colors.Olama,
+  [Stack.Ollama]: {
+    value: 'Ollama',
+    color: Colors.Ollama,
   },
   [Stack.Gemma]: {
     value: 'Gemma',

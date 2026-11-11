@@ -15,7 +15,7 @@ export const Colors = {
   ReduxToolkit: '#764ABC',
   ReduxSaga: '#764ABC',
   fastAPI: '#009688',
-  Olama: '#000000',
+  Ollama: '#000000',
   Gemma: '#000000',
 
   // Frontend

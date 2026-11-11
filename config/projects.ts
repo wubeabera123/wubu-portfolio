@@ -38,9 +38,9 @@ export const projects: Project[] = [
     banner: '/static/projects/car-spare.png',
     website: 'https://car-spare-part.vercel.app',
     description:
-      'Car Spare Parts Sell System is a web application designed to facilitate the buying and selling of car spare parts. The platform provides a user-friendly interface for both buyers and sellers, allowing them to easily list, search, and purchase spare parts for various car models. With features such as secure payment processing, real-time inventory management, and customer support, the Car Spare Parts Sell System aims to streamline the process of acquiring essential components for vehicle maintenance and repair.',
+      'A web application for buying and selling car spare parts, with product listings, search, purchasing flows, and inventory-oriented features. Built to make it straightforward for buyers to find parts and for sellers to manage their offerings.',
     shortDescription:
-      'Car Spare Parts Sell System is a web application designed to facilitate the buying and selling of car spare parts.',
+      'A marketplace for listing, finding, and purchasing car spare parts.',
     repository: '#',
     stack: [
       Stack.nextjs,
@@ -69,14 +69,14 @@ export const projects: Project[] = [
     subProjects: [],
   },
   {
-    title: 'AI Powered Task Management System',
+    title: 'AI Powered Task Management System (TaskFlow AI)',
     slug: 'TASK',
     banner: '/static/projects/task1.jpg',
     website: 'https://vimeo.com/1195268100/3c70cbacd9?fl=pl&fe=sh',
     description:
-      'Built TaskFlow AI, a full-stack productivity app using FastAPI, Next.js, and TypeScript. It features secure JWT auth, task CRUD, and AI tools to generate tasks, break work into subtasks, prioritize backlog items, and create deadline-based schedules. I delivered end-to-end API integration, typed frontend architecture, responsive UI/UX redesign, profile-based navigation, and usability upgrades like delete confirmation, stable pagination, newest-first ordering, and scrollable task workspace sections.',
+      'TaskFlow AI is a full-stack productivity platform built with FastAPI, Next.js, and TypeScript. It includes secure JWT authentication, task management, AI task generation, subtask breakdown, backlog prioritization, and deadline-based scheduling. The product also features typed API integration, responsive UI, profile-based navigation, stable pagination, and scrollable workspace sections.',
     shortDescription:
-      'Built TaskFlow AI, a full-stack productivity app using FastAPI, Next.js, and TypeScript.',
+      'An AI-powered productivity platform for creating, breaking down, prioritizing, and scheduling tasks.',
     repository: '#',
     stack: [
       Stack.nextjs,
@@ -87,7 +87,7 @@ export const projects: Project[] = [
       Stack.prisma,
       Stack.postgres,
       Stack.node,
-      Stack.Olama,
+      Stack.Ollama,
       Stack.Gemma,
     ],
     dimensions: [320, 640],
@@ -108,9 +108,9 @@ export const projects: Project[] = [
     banner: '/static/projects/ScreenshotWeb.png',
     website: 'https://www.hst-et.com/',
     description:
-      'Welcome to HST Consulting PLC, your trusted partner in business excellence. Our website provides insights into our key services, including audit services to ensure accurate, transparent, and compliant financial statements; talent management to attract, retain, and develop top talent with tailored solutions; tax services to optimize your tax position with strategic planning and compliance; strategy and organization consulting to develop effective strategies and enhance organizational performance; and technology solutions to leverage cutting-edge technologies for improved efficiency and growth. Discover how HST Consulting PLC can support your business and help you achieve your goals.',
+      'A business website presenting HST Consulting PLC services across audit, talent management, tax, strategy, organization, and technology solutions.',
     shortDescription:
-      'Welcome to HST Consulting PLC, your trusted partner in business excellence.',
+      'A business website for HST Consulting PLC and its professional services.',
     repository: '#',
     stack: [Stack.nextjs, Stack.react, Stack.tailwind],
     dimensions: [320, 640],
@@ -134,9 +134,9 @@ export const projects: Project[] = [
     banner: '/static/projects/ScreenshotOA1.png',
     website: 'https://myoffice.hst-et.com/',
     description:
-      'Welcome to the HST Office Automation System, designed to streamline your business operations and enhance efficiency. Our system offers a range of services, including room booking to manage meeting spaces effortlessly, a help desk for timely support and issue resolution, and asset management to track and maintain your valuable resources. Discover how the HST Office Automation System can optimize your office processes and improve productivity.',
+      'An office automation platform supporting room booking, help desk workflows, and asset management to improve internal operational efficiency.',
     shortDescription:
-      'Welcome to the HST Office Automation System, designed to streamline your business operations',
+      'An internal operations platform for room booking, help desk, and asset management.',
     repository: '#',
     stack: [
       Stack.nextjs,
@@ -165,9 +165,9 @@ export const projects: Project[] = [
     banner: '/static/projects/ScreenshotPMF1.png',
     website: 'https://pmf-demo.vercel.app/',
     description:
-      'Pay My Fees (PMF) is a secure and efficient money exchange platform designed to simplify cross‑border payments. With PMF, users can request or send money between countries seamlessly, ensuring fast and reliable transfers. The platform operates as an escrow system, providing an added layer of protection for both senders and receivers. Whether paying fees, supporting family, or handling international transactions, PMF makes global money movement easy, transparent, and trustworthy.',
+      'A secure cross-border payment platform supporting money transfers and escrow-style flows for international payments and financial transactions.',
     shortDescription:
-      'Pay My Fees (PMF) is a secure money exchange platform for sending and receiving funds across countries using an escrow system.',
+      'A cross-border payments platform with money transfer and escrow-style flows.',
     repository: '#',
     stack: [
       Stack.nextjs,
@@ -199,9 +199,9 @@ export const projects: Project[] = [
     banner: '/static/projects/ScreenshotRMF1.png',
     website: 'https://staging.sira.hst-et.com',
     description:
-      'The Recruitment Management System is a comprehensive platform designed to simplify and automate the entire hiring process. From posting job vacancies and managing applications to scheduling interviews and tracking candidate progress, the system ensures a smooth and efficient recruitment workflow. Employers can easily evaluate applicants, collaborate with team members, and make informed hiring decisions, while candidates benefit from a clear and user‑friendly application experience. The Recruitment Management System enhances transparency, reduces manual effort, and helps organizations find the right talent quickly and effectively.',
+      'A hiring workflow platform for job posting, application management, interview coordination, and candidate tracking, built to streamline recruitment operations.',
     shortDescription:
-      'A streamlined platform that automates job posting, applicant tracking, and hiring workflows to help organizations recruit talent efficiently.',
+      'A recruitment platform for managing vacancies, applications, interviews, and candidates.',
     repository: '#',
     stack: [
       Stack.nextjs,
@@ -231,9 +231,9 @@ export const projects: Project[] = [
     banner: '/static/projects/ScreenshotIB1.png',
     website: 'https://www.insight-bridge.ai',
     description:
-      'Insight Bridge AI is an intelligent data platform designed to help enterprises unlock the full value of their information. Built with advanced AI capabilities, it democratizes access to data, enabling teams across all skill levels to explore insights, uncover opportunities, and make evidence‑based decisions with confidence.The platform empowers organizations across industries—including finance, healthcare, retail, manufacturing, telecom, education, energy, the public sector, and aviation—to improve performance, streamline operations, and drive measurable outcomes through actionable analytics. Insight Bridge AI is guided by core values: security first, ensuring data privacy and trust; democratizing access so anyone can interact with data effortlessly; enabling informed decision‑making through clear insights; and fostering collaboration among enterprises, governments, and communities. Our mission is to transform raw information into meaningful intelligence and build an inclusive AI‑powered future for Africa and beyond.',
+      'Contributed to an AI-powered enterprise data platform that helps organizations access insights, improve decision-making, and support analytics-driven business outcomes.',
     shortDescription:
-      'Insight Bridge AI is an AI-powered data platform that democratizes access to insights, helping enterprises make smarter, evidence-based decisions with clarity and confidence.',
+      'An enterprise data platform that helps teams turn information into useful insights and better decisions.',
     repository: '#',
     stack: [Stack.nextjs, Stack.react, Stack.materialUI, Stack.tailwind],
     dimensions: [320, 640],
