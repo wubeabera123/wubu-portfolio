@@ -28,7 +28,7 @@ const LayoutWrapper = ({ children }: Props) => {
             <Image
               alt={'logo'}
               src={'/static/mylogo.png'}
-              className='w-1 object-cover object-center md:h-36 lg:h-48'
+              className='h-auto w-16 object-contain'
               width={68}
               height={50}
             />

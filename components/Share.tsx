@@ -10,7 +10,7 @@ import {
   FacebookShareButton,
   LinkedinShareButton,
   RedditShareButton,
-  TwitterShareButton,
+  XShareButton,
 } from 'react-share';
 
 interface ShareProps {
@@ -24,19 +24,19 @@ export default function Share(props: ShareProps): React.ReactElement {
   return (
     <div className='flex items-center justify-center pt-2'>
       <div className='flex w-44 items-center justify-between'>
-        <TwitterShareButton title={title} url={url}>
+        <XShareButton text={title} url={url}>
           <TwitterIcon size={22} color={Colors.twitter} />
-        </TwitterShareButton>
-        <RedditShareButton title={title} url={url}>
+        </XShareButton>
+        <RedditShareButton shareTitle={title} url={url}>
           <RedditIcon size={22} color={Colors.reddit} />
         </RedditShareButton>
-        <FacebookShareButton title={title} url={url}>
+        <FacebookShareButton url={url}>
           <FacebookIcon size={22} color={Colors.facebook} />
         </FacebookShareButton>
-        <LinkedinShareButton title={title} url={url}>
+        <LinkedinShareButton url={url}>
           <LinkedinIcon size={22} color={Colors.linkedin} />
         </LinkedinShareButton>
-        <EmailShareButton title={title} url={url}>
+        <EmailShareButton url={url} subject={title} body={url}>
           <EmailIcon size={22} color={Colors.email} />
         </EmailShareButton>
       </div>
